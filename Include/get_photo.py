@@ -17,10 +17,7 @@ class get_photos(object):
         self.download_server = 'https://unsplash.com/photos/xxx/download?force=trues'
         self.target = 'http://unsplash.com/napi/feeds/home'
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
-            'authority': 'unsplash.com',
-            'cookie': '_ga=GA1.2.799527537.1527661925; _gid=GA1.2.2109382450.1527661925; uuid=2b4fcee0-63d3-11e8-83a1-b9a57b809797; xpos=%7B%7D; _sp_ses.0295=*; _sp_id.0295=ecaa0d96-23eb-4902-8b03-7e75b9b02de8.1527661925.3.1527749407.1527668040.ebb220ae-8694-4c81-89cb-45b4af6c7563',
-            'upgrade-insecure-requests': '1'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
         }
 
     """

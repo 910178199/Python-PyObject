@@ -7,7 +7,6 @@ from splinter import Browser
 
 
 execu_path = r'D:\huohu\geckodriver.exe'
-phantomJs_path = r'D:\download\phantomjs-2.1.1-windows\phantomjs-2.1.1-windows\bin\phantomjs.exe'
 
 
 def browserTest():

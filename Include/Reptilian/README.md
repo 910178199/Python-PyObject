@@ -15,6 +15,7 @@ tutorial/spiders/: 放置spider代码的目录.
 ### 运行爬虫
 
 scrapy crawl quotes
+scrapy crawl freebuf
 
 ### 储存爬虫数据,第二次运行，在文件末尾追加数据
 

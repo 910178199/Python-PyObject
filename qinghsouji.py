@@ -40,7 +40,7 @@ b.find_by_id("choose-btn-qiang").click() #找到抢购按钮，点击
 time.sleep(10) #等待10sec
 while True:
   loop(b)
-  if b.is_element_present_by_id("tryBtn"): #订单提交后显示“再次抢购”的话
+  if  b.is_element_present_by_id("tryBtn"): #订单提交后显示“再次抢购”的话
     b.find_by_id("tryBtn").click() #点击再次抢购，进入读秒5，跳转订单页
     time.sleep(6.5)
   elif b.title=="订单结算页 -京东商城": #如果还在订单结算页
